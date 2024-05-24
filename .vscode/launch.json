@@ -2,14 +2,88 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "(Windows) Launch",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal"
+    },
+    {
+      "type": "java",
+      "name": "DiningPhilosophers",
+      "request": "launch",
+      "mainClass": "DiningPhilosophers",
+      "projectName": "OS_3c457c62"
+    },
+    {
+      "type": "java",
+      "name": "Q5WaitNotifyDriver",
+      "request": "launch",
+      "mainClass": "synchronization.Q5WaitNotifyDriver",
+      "projectName": "OS_3c457c62"
+    },
+    {
+      "type": "java",
+      "name": "Q0ChildThreadDriver",
+      "request": "launch",
+      "mainClass": "synchronization.Q0ChildThreadDriver",
+      "projectName": "OS_3c457c62"
+    },
+    {
+      "type": "java",
+      "name": "Q1InnerAndNotSyncDriver",
+      "request": "launch",
+      "mainClass": "synchronization.Q1InnerAndNotSyncDriver",
+      "projectName": "OS_3c457c62"
+    },
+    {
+      "type": "java",
+      "name": "Lab11_Q3DriverSol",
+      "request": "launch",
+      "mainClass": "Lab11.Lab11_Q3DriverSol",
+      "projectName": "OS_3c457c62"
+    },
+    {
+      "type": "java",
+      "name": "Lab11_Q2Driver",
+      "request": "launch",
+      "mainClass": "Lab11.Lab11_Q2Driver",
+      "projectName": "OS_3c457c62"
+    },
+    {
+      "type": "java",
+      "name": "Lab_MatrixMul",
+      "request": "launch",
+      "mainClass": "Lab_MatrixMul",
+      "projectName": "OS_3c457c62"
+    },
+    {
+      "type": "java",
+      "name": "Lab_MatrixMul",
+      "request": "launch",
+      "mainClass": "javaThread.Lab_MatrixMul",
+      "projectName": "OS_e429cbfb"
+    },
+    {
+      "type": "java",
+      "name": "Lab_MatrixMul_65050335",
+      "request": "launch",
+      "mainClass": "Lab_MatrixMul_65050335",
+      "projectName": "OS_e429cbfb"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/jaikwang/OneDrive/OS",
-      "program": "c:/Users/jaikwang/OneDrive/OS/build/Debug/outDebug",
+      "cwd": "c:/Users/jaikwang/OneDrive/coding101/OS/Lab8/lab8a_Signal",
+      "program": "c:/Users/jaikwang/OneDrive/coding101/OS/Lab8/lab8a_Signal/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
@@ -19,6 +93,32 @@
           "ignoreFailures": true
         }
       ]
+    },
+    {
+      "name": "C/C++: gcc.exe build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: gcc.exe build active file"
     }
   ]
 }

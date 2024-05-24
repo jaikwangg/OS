@@ -14,5 +14,5 @@ int main() {
 	}
 	printf("summation = %d\n",sum);
 	float avg = sum/cnt;
-	printf("average = %.2f",avg;
+	printf("average = %.2f",avg);
 }
